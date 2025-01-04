@@ -73,6 +73,7 @@ function PostsPage({ message, filter = "" }) {
                                         key={post.id}
                                         {...post}
                                         setPosts={setPosts}
+                                        postPage={true}
                                     />
                                 ))}
                                 dataLength={posts.results.length}
