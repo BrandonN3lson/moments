@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import appstyles from "../../App.module.css";
 import { Container } from "react-bootstrap";
 import { useProfileData } from '../../context/ProfileDataContext'
